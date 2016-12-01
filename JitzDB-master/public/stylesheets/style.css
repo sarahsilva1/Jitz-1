@@ -1,0 +1,249 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  /*dark gray*/
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+p {
+ text-indent: 50px;
+ line-height: 130%;
+ color: white;
+}
+
+.indented {
+  font-size: 16px;
+  text-indent: 20%;
+  line-height: 230%;
+}
+
+.aboutText {
+  font-size: 15px;
+  margin-top: 40px;
+  text-indent: 50px;
+  margin-bottom: 30px;
+  line-height: 135%;
+  color: white;
+}
+
+p:link {
+  color: #CFB055;
+}
+
+p:hover {
+  color: #FFFFFF;
+}
+/*
+a {
+  color: #CFB055;
+}*/
+
+.homeText {
+  /*background-color: : #00b7ff !important;*/
+  color: #CFB055;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.homeTitle {
+  /*background-color: : #00b7ff !important;*/
+  padding-top: 20%;
+  color: #CFB055;
+  font-size: 80px;
+}
+
+#homeImage{
+height: 90%;
+width: 90%;
+}
+
+#entireNavbar{
+  position: fixed !important;
+  position: absolute !important;
+}
+
+.allBodyContent {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mapContainer{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*float: left;*/
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.whiteText{
+  color: white;
+}
+
+
+#locationText {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/*//walmart style below*/
+.thumbnail img {
+    height: 150px;
+}
+
+.thumbnail .description {
+    color: #7f7f7f;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*.navbar{
+    background-color: #339CFF !important;
+}*/
+
+/*.navbar a{
+  color:white !important;
+}*/
+
+/*.dropdown .dropdown-menu a{
+  color: #339CFF !important;
+}*/
+
+.thumbnail .btn .btn-success {
+  color: #F39C12 !important;
+}
+
+
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  /*dark gray*/
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+p {
+ text-indent: 50px;
+ line-height: 130%;
+ color: white;
+}
+
+.indented {
+  font-size: 16px;
+  text-indent: 20%;
+  line-height: 230%;
+}
+
+.aboutText {
+  font-size: 15px;
+  margin-top: 40px;
+  text-indent: 50px;
+  margin-bottom: 30px;
+  line-height: 135%;
+  color: white;
+}
+
+p:link {
+  color: #CFB055;
+}
+
+p:hover {
+  color: #FFFFFF;
+}
+
+a {
+  color: #CFB055;
+}
+
+.homeText {
+  /*background-color: : #00b7ff !important;*/
+  color: #CFB055;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.homeTitle {
+  /*background-color: : #00b7ff !important;*/
+  padding-top: 20%;
+  color: #CFB055;
+  font-size: 80px;
+}
+
+#homeImage{
+height: 90%;
+width: 90%;
+}
+
+#entireNavbar{
+  position: fixed !important;
+  position: absolute !important;
+}
+
+.allBodyContent {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mapContainer{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*float: left;*/
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.whiteText{
+  color: white;
+}
+
+
+#locationText {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}

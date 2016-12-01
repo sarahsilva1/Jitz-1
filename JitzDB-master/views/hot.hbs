@@ -1,0 +1,58 @@
+{{> header }}
+{{> menumenu }}
+
+<title>Hot Drinks</title>
+<div>
+  <p>Here are our hot beverages!</p>
+</div>
+
+<!-- ADRIANS STUFF BELOW -->
+<!-- Stripe functionality-->
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div id="success" class="alert alert-success" {{#if noMessages}}hidden{{/if}}>
+            {{ successMsg }}
+        </div>
+    </div>
+</div>
+<script> console.log('this works');</script>
+<!-- Loops through all products objects and displays them-->
+{{# each Product }}
+    <div class="row">
+      {{#if this._id}}
+
+        {{# each this }}
+            <div> <script> console.log(i); </script>
+                <div>
+                    <img src="{{ this.imagePath }}" class="img-responsive">
+                    <div class="caption">
+                        <h3>{{ this.title }}</h3>
+                        <p class="description">{{ this.description }}</p>
+                        <div>
+                            <div class="price pull-left">{{ this.price }}</div>
+                            <a href="/add-to-cart" class="btn btn-warning pull-right" role="button">Add to Shopping Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script> i=i+1; </script>
+        {{/each}}
+        {{/if}}
+    </div>
+{{/each}}
+
+<!-- Loops through all products objects and displays them-->
+<!-- {{# each Product }}
+      {{#if this._id}}
+        {{# each this }}
+
+                    <img src="{{ this.imagePath }}" class="img-responsive">
+
+                        <h3>{{ this.title }}</h3>
+                        <p class="description">{{ this.description }}</p>
+
+        {{/each}}
+        {{/if}}
+{{/each}} -->
+
+{{> footer }}

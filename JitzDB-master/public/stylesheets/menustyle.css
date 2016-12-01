@@ -1,0 +1,38 @@
+#menuCircles {
+  border-radius: 90%;
+  /*background: white;*/
+  border: 5px solid #CFB055;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+#menuCircles > div {
+  flex: 1;
+  min-width: 300px;
+  border: 1px solid;
+}
+
+.circleText{
+  text-align: center !important;
+  text-indent: -40px !important;
+  font-size: 20px;
+}
+
+.circleText:hover{
+  text-align: center !important;
+  text-indent: -38px;
+  font-size: 20px;
+}
+
+#wrapper {
+  padding-top: 30px;
+  display: flex;    /* Magic begins */
+  flex-wrap: wrap;  /* Allow multiple lines */
+}
+
+#wrapper > div {
+  flex: 1;
+  min-width: 208px;
+  border: 1px solid;
+}
